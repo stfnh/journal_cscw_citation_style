@@ -31,6 +31,10 @@
       <email>charles.parnot@gmail.com</email>
       <uri>http://twitter.com/cparnot</uri>
     </contributor>
+    <contributor>
+      <name>Stefan Hochwarter</name>
+      <email>stefan.hochwarter@gmail.com</email>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="science"/>
     <category field="social_science"/>
@@ -457,8 +461,10 @@
     </sort>
     <layout>
       <group suffix=".">
-        <group delimiter=". ">
+        <group delimiter=" ">
           <text macro="author"/>
+        </group>
+        <group delimiter=". ">
           <text macro="issued"/>
           <text macro="title" prefix=" "/>
           <text macro="container"/>
